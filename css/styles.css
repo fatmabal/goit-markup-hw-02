@@ -11,6 +11,7 @@ body{
     text-transform: uppercase;
     letter-spacing: 0.03em;
     color: #4d5ae5;
+    font-style: normal;
 }
 .menu-menu{
     font-weight: 500;
@@ -152,6 +153,7 @@ list-style-type: none;
     list-style-type: none;
 }
 
+
 .middle-title {
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -163,13 +165,22 @@ list-style-type: none;
     color: #2e2f42;
 
 }
-.team-name{
+.image-image {
+    background-color: #FFFFFF;
+}
+h3{
     font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
 
 }
-.team-position{
+p{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
     font-family: "Roboto", sans-serif;
-
 }
 .box4{
     margin-left:156px;

@@ -38,13 +38,11 @@ color: #2e2f42;
 }
 .menu-menu:focus {
     color: #404bbf;
-    outline: none;
 }
 
 .list-bar{
     font-family: "Roboto", sans-serif;
     list-style-type: none;
-    gap:15px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -52,11 +50,8 @@ color: #2e2f42;
     color: #434455;
 }
 .menu-adres{
-    align-items: center;
-    justify-content: flex-end;
     font-family: "Roboto", sans-serif;
     font-size: 16px;
-    justify-content: flex-end;
     color: #434455;
     line-height: 24px;
     letter-spacing: 0.02em;
@@ -79,31 +74,19 @@ color: #2e2f42;
 .section-one{
     background-color: #2e2f42;
 }
-.box1{
-    border: 2px solid blue;
-    text-align: center;
-    position: relative;
-    width: 1440px;
-    height: 600px;
-    background-color: #2E2F42;  
-}
+
 .hero-banner{
    color:#ffffff;
    font-family: 'Roboto', sans-serif;
    font-size: 56px;
-   text-align: center;
+
    line-height: 1.07;
-   margin-top: 260px; 
 letter-spacing: 0.02em;
 }
 .banner-button{
 
     color:#ffffff;
     background-color:#4D5AE5;
-    width: 169px;
-    height: 56px;
-    text-align: center;
-    margin-top: 4px;
     font-family:"Roboto", sans-serif;
     font-size: 16px;
     font-weight: 500;
@@ -120,13 +103,7 @@ background-color: #404BBF;
 .banner-button:focus:focus {
     background-color: #404BBF;
 }
-.box2 {
-margin-left:156px;
-position: relative;
-width: 1128px;
-height: 72px;
-list-style-type: none;
-}
+
 
 
 .title-title{
@@ -148,16 +125,12 @@ list-style-type: none;
 }
 .team-image {
     background-color: #F4F4FD;
-    text-align: center;
-    width: 1440px;
-    height: 732px;
     list-style-type: none;
 }
 
 
 .middle-title {
     font-family: 'Roboto', sans-serif;
-    text-align: center;
     font-weight: bold;
     font-size: 36px;
     line-height: 1.11;
@@ -183,27 +156,8 @@ p{
     letter-spacing: 0.02em;
     font-family: "Roboto", sans-serif;
 }
-.box4{
-    margin-left:156px;
-    width: 1128px;
-    height: 1000px;
-    text-align: center;
-}
-.box4-1{
-    position:relative;
-    text-align: center;
-    width: 1128px;
-    height: 420px;
-}
-.box4-2{
-    position: relative;
-    text-align: center;
-    width: 1128px;
-    height: 420px;
-}
+
 .footer{
-    width: 1440px;
-    height: 312px;
     color: #2e2f42;
     background-color: #2E2F42;
 }

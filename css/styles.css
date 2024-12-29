@@ -60,6 +60,7 @@ color: #2e2f42;
     color: #434455;
     line-height: 24px;
     letter-spacing: 0.02em;
+    font-style: normal;
 }
 .info-mail{
     font-size: 16px;
@@ -210,4 +211,7 @@ p{
 line-height: 1.5;
 color: #F4F4FD;
 letter-spacing: 0.02em;
+}
+.logo-studio-footer{
+    color: #F4F4FD;
 }

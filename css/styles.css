@@ -1,3 +1,66 @@
+body{
+    color: #434455;
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF
+}
+.menu-logo{
+    font-family:"Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: #4d5ae5
+}
+.span{
+    color: #2e2f42;
+}
+.span2{
+    color: #F4F4FD;
+}
+.bar-a{
+    display:inline-flex;
+    font-family: "Roboto",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    font-weight: 500;
+    
+}
+.list-bar a:hover{
+    color: #404bbf;;
+}
+.list-bar a:focus {
+    color: #404bbf;
+    outline: none;
+}
+
+.list-bar{
+    font-family: "Roboto", sans-serif;
+    display: inline-flex;
+    list-style-type: none;
+    gap:15px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+.menu-adres{
+    align-items: center;
+    justify-content: flex-end;
+    font-family: "Roboto", sans-serif;
+display: inline-flex;
+font-size: 16px;
+justify-content: flex-end;
+    color: #434455;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+}
+.section-one{
+    background-color: #2e2f42;
+}
 .box1{
     border: 2px solid blue;
     text-align: center;
@@ -7,82 +70,93 @@
     height: 600px;
     background-color: #2E2F42;  
 }
-.h1{
-   color:white;
+.hero-banner{
+   color:#ffffff;
    font-family: 'Roboto', sans-serif;
    font-size: 56px;
    text-align: center;
-   line-height: 60px;
+   line-height: 1.07;
    margin-top: 260px; 
+letter-spacing: 0.02em;
 }
-.button{
+.banner-button{
 
-    color: white;
+    color:#ffffff;
     background-color:#4D5AE5;
     width: 169px;
     height: 56px;
     text-align: center;
     margin-top: 4px;
-    font-family: 'Roboto', sans-serif;
+    font-family:"Roboto", sans-serif;
     font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    cursor: pointer;
     
     
     
+}
+.banner-button:hover:hover{
+background-color: #404BBF;
+}
+.banner-button:focus:focus {
+    background-color: #404BBF;
 }
 .box2 {
 margin-left:156px;
 position: relative;
- display:inline-block;
- width: 1128px;
- height: 72px;
+display:inline-block;
+width: 1128px;
+height: 72px;
+list-style-type: none;
 }
-.box2-1{
+
+
+.title-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
     
-    display: inline-block;
-    width: 264px;
-    height: 72px;
 }
-.box2-2 {
-   
-    display: inline-block;
-    width: 264px;
-    height: 72px;
+.title-p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+
 }
-.box2-3 {
-   
-    display: inline-block;
-    width: 264px;
-    height: 72px;
-}
-.box2-4 {
-    
-    display: inline-block;
-    width: 264px;
-    height: 72px;
-}
-.box3{
+.team-image {
+    display: flex;
+    display: inline;
     background-color: #F4F4FD;
     text-align: center;
     width: 1440px;
     height: 732px;
+    list-style-type: none;
 }
-.h2{
+
+.middle-title {
     font-family: 'Roboto', sans-serif;
     text-align: center;
     font-weight: bold;
     font-size: 36px;
-
-
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
 
 }
-.h3{
-    font-family: 'Roboto', sans-serif;
-    font-size: 20px;
-    
+.team-name{
+    font-family: "Roboto", sans-serif;
+
 }
-.h3-p{
-    font-family: 'Roboto',sans-serif;
-    font-size: 16px;
+.team-position{
+    font-family: "Roboto", sans-serif;
 
 }
 .box4{
@@ -106,9 +180,14 @@ position: relative;
     width: 1128px;
     height: 420px;
 }
-.box5{
+.footer{
     width: 1440px;
     height: 312px;
-    color: white;
+    color: #2e2f42;
     background-color: #2E2F42;
+}
+.footer-p{
+line-height: 1.5;
+color: #F4F4FD;
+letter-spacing: 0.02em;
 }

@@ -13,6 +13,9 @@ body{
     color: #4d5ae5;
     font-style: normal;
 }
+h2{
+    text-align: center;
+}
 .menu-menu{
     font-weight: 500;
     font-size: 16px;
@@ -79,7 +82,7 @@ color: #2e2f42;
    color:#ffffff;
    font-family: 'Roboto', sans-serif;
    font-size: 56px;
-
+   text-align: center;
    line-height: 1.07;
 letter-spacing: 0.02em;
 }
@@ -137,6 +140,7 @@ background-color: #404BBF;
     letter-spacing: 0.02em;
     text-transform: capitalize;
     color: #2e2f42;
+    text-align: center;
 
 }
 .image-image {

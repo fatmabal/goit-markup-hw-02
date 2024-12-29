@@ -12,12 +12,10 @@ body{
     letter-spacing: 0.03em;
     color: #4d5ae5
 }
-.span{
+.logo-studio{
     color: #2e2f42;
 }
-.span2{
-    color: #F4F4FD;
-}
+
 .bar-a{
     display:inline-flex;
     font-family: "Roboto",sans-serif;
